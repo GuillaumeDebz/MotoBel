@@ -9,7 +9,7 @@ const homeController =
      * @param {Response} res La reponse
      */
     index: async (req, res) => {
-        res.render('Home/Index');
+        res.render('home/index');
     },
 
     /**
@@ -18,7 +18,7 @@ const homeController =
      * @param {Response} res La reponse
      */
     about: async (req, res) => {
-        res.render('Home/about');
+        res.render('home/about');
     }
 }
 
