@@ -23,6 +23,8 @@ async function initialize()
     } catch (error) {
         console.log('FAIL');
     }
+
+    db.model= require("../models/motos.model")(sequelize);
 };
 
 module.exports=initialize

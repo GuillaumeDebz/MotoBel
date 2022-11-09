@@ -25,3 +25,6 @@ app.use(router);
 app.listen(PORT, () => {
     console.log(`Server up on port ${PORT} in mode ${NODE_ENV}`);
 })
+
+
+// const motodecam =

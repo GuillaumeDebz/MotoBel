@@ -4,21 +4,20 @@ function model(sequelize)
 {
     const attributes =
     {
-        BRAND: { type: DataTypes.INTEGER, allowNull:false, autoIncrement: true,
-            primaryKey: true},
+        ID: { type: DataTypes.INTEGER, allowNull:false, autoIncrement: true, primaryKey: true},
+        BRAND: { type: DataTypes.STRING, allowNull:false},
         MODEL: { type: DataTypes.STRING, allowNull:false},
-        YEAR: { type: DataTypes.INTEGER, allowNull:false},
-        Description: { type: DataTypes.STRING, allowNull:false},
-        Photo:{ type: DataTypes.STRING, allowNull:false},
-        EstDisponible:{ type:DataTypes.BOOLEAN, allowNull:false},
-        Prix: {type:DataTypes.FLOAT, allowNull:false}
+        PROD_YEAR: { type: DataTypes.INTEGER, allowNull:false},
+        DETAIL: { type: DataTypes.STRING, allowNull:true},
+        PHOTO:{ type: DataTypes.STRING, allowNull:true},
+        PRICE: {type:DataTypes.FLOAT, allowNull:false}
     }
     const options = 
     {
         timestamps: false,
-        tableName: 'Produit'
+        tableName: 'MOTOS'
     }
-    return sequelize.define("Produit", attributes, options);
+    return sequelize.define("MOTOS", attributes, options);
 }
 
 module.exports=model;
