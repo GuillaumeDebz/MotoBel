@@ -1,0 +1,25 @@
+{
+  "name": "motobel",
+  "version": "1.0.0",
+  "description": "motobelmaggle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeDebz/MotoBel.git"
+  },
+  "keywords": [
+    "Technobel",
+    "MotoBel",
+    "NodeJS",
+    "Express"
+  ],
+  "author": "MemeLord, Freshman & Charo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillaumeDebz/MotoBel/issues"
+  },
+  "homepage": "https://github.com/GuillaumeDebz/MotoBel#readme"
+}
